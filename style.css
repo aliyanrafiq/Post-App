@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Dancing-Script;
+    src: url(fonts/Dancing_Script.zip);
+}
+
+@font-face {
+    font-family: Young-Serif;
+    src: url(fonts/Young_Serif.zip);
+}
+
+* {
+    font-family: Young-Serif !important;
+
+}
+
+#navbar {
+    background-color: #331c73 !important;
+    height: 80px;
+    margin-top: -10px;
+    /* font-family: Dancing-Script; */
+    font-family: Dancing-Script !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .main {
+        padding: 10px 4px !important;
+    }
+}
+
+img{
+    width: 100px !important;
+    height: 50px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.navbar-brand{
+    align-items: center;
+}
